@@ -1,0 +1,80 @@
+.app {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.app h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.app input[type="text"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.change-unit {
+  margin-bottom: 20px;
+}
+
+.change-unit button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.change-unit button:hover {
+  background-color: #3e8e41;
+}
+
+.weather-details {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-details h2 {
+  margin-top: 0;
+}
+
+.forecast-details {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-details h2 {
+  margin-top: 0;
+}
+
+.forecast-day {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.no-data {
+  text-align: center;
+  margin-bottom: 20px;
+}
