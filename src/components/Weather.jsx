@@ -11,7 +11,7 @@ const Weather = () => {
 
     useEffect(() => {
         if (city) {
-            axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=${unit}&appid=bb4d7e479236a68d57a70c6eb55e16e0`)
+            axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=${unit}&appid=Enter your API key her`)
                 .then(response => {
                     setWeatherData(response.data);
                 })
